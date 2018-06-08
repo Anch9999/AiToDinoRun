@@ -1,5 +1,5 @@
 # AiToDinoRun
-## Step 1 cd Vagrant
+## Step 1 Go to Vagrant folder
 * vagrant up
 ## Step 2 Go into VM and execute below step
 * password : vagrant
