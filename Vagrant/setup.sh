@@ -22,7 +22,3 @@ wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-ke
 
 # install pipenv
 sudo pip install pipenv
-
-# install ML library
-cd model
-pipenv --python 3.6 && pipenv shell && pipenv install
