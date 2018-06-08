@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+keras = "*"
+tensorflow = "*"
+selenium = "*"
+opencv-python = "*"
+pandas = "*"
+jupyter = "*"
+Pillow = "*"
+matplotlib = "*"
+seaborn = "*"
+
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
