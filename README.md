@@ -53,6 +53,7 @@ By the way, you also can use google cloud platform to build up your virtural mac
 ![](https://github.com/Anch9999/AiToDinoRun/blob/master/model/image_data/gcp.PNG)
 
 * create new firewall rule in GCP and use ssh connection
+
 ![](https://github.com/Anch9999/AiToDinoRun/blob/master/model/image_data/firewall.PNG)
 
 ```shell=
