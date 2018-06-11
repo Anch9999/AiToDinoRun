@@ -3,7 +3,7 @@
 This reference [playing atari with deep reinforcement learning](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf)
 and use https://github.com/Paperspace/DinoRunTutorial code to play Google Chrome's offline Dino Run game.
 
-![](https://github.com/Anch9999/AiToDinoRun/blob/master/model/image_data/training_dinorun.gif)
+![](model/image_data/training_dinorun.gif)
 
 Here my aim is practice build up my virtual system environment by myself, and try to understand how to use DRL (Deep Reinforcement Learning) let chrome dino game can start training to get a higher score than human play.
 
@@ -37,7 +37,7 @@ vagrant up
 and import to extension pack to your virtualbox tool
 path -> File -> Preferences
 
-![](https://github.com/Anch9999/AiToDinoRun/blob/master/model/image_data/windowplugin.PNG)
+![](model/image_data/windowplugin.PNG)
 
 2. Here I use gitbash run as administrator. (right click gitbash icon and you should see this in the popup menu)
 
@@ -50,11 +50,11 @@ P.S. Mention all application you execute in Windows10, you should open by **"run
 ### B. GCP VM
 By the way, you also can use google cloud platform to build up your virtural machine, in practice, I choose 16 vCPU and 104 GB memory size to be my VM. And next you need to install gui tools and connection by VNC Viewer.
 
-![](https://github.com/Anch9999/AiToDinoRun/blob/master/model/image_data/gcp.PNG)
+![](model/image_data/gcp.PNG)
 
 * create new firewall rule in GCP and use ssh connection
 
-![](https://github.com/Anch9999/AiToDinoRun/blob/master/model/image_data/firewall.PNG)
+![](model/image_data/firewall.PNG)
 
 ```shell=
 * sudo apt-get update
