@@ -53,24 +53,24 @@ By the way, you also can use google cloud platform to build up your virtural mac
 ![](https://github.com/Anch9999/AiToDinoRun/blob/master/model/image_data/gcp.PNG)
 
 ```shell=
-0. create new firewall rule in GCP and use ssh connection
+* create new firewall rule in GCP and use ssh connection
 
 ![](https://github.com/Anch9999/AiToDinoRun/blob/master/model/image_data/firewall.PNG)
 
-1. sudo apt-get update
-2. sudo apt-get upgrade
-3. sudo apt-get install -y ubuntu-desktop gnome-panel gnome-core gnome-settings-daemon metacity nautilus gnome-terminal vnc4server
-4. vncserver
-5. type your password
-6. vim .vnc/xstartup
-7. copy below lines and paste to file the last line
+* sudo apt-get update
+* sudo apt-get upgrade
+* sudo apt-get install -y ubuntu-desktop gnome-panel gnome-core gnome-settings-daemon metacity nautilus gnome-terminal vnc4server
+* vncserver
+* type your password
+* vim .vnc/xstartup
+* copy below lines and paste to file the last line
 gnome-panel &
 gnome-settings-daemon &
 metacity &
 nautilus &
-8. vncserver -kill :1
-9. vncserver (remember your ip and port, we need use this to your local VNC viewer)
-10. type your ip and port in VNC viewer, and you should see your ubuntu desktop
+* vncserver -kill :1
+* vncserver (remember your ip and port, we need use this to your local VNC viewer)
+* type your ip and port in VNC viewer, and you should see your ubuntu desktop
 ```
 
 ### C. Use pipenv to crate your virtual environment
@@ -90,6 +90,8 @@ jupyer notebook
 ```
 
 Finally, you can open Reinforcement Learning Dino Run.ipynb to start run your DRP dino game.
+
 Hope you enjoy it :_)
+
 P.S. Invoke init_cache() for the first time.
 
