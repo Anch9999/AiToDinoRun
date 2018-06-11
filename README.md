@@ -36,22 +36,27 @@ vagrant up
 1. You need download Oracle_VM_VirtualBox_Extension_Pack, VirtualBox-5.2.12-122591-Win first
 and import to extension pack to your virtualbox tool
 path -> File -> Preferences
+
 ![](https://github.com/Anch9999/AiToDinoRun/blob/master/model/image_data/windowplugin.PNG)
+
 2. Here I use gitbash run as administrator. (right click gitbash icon and you should see this in the popup menu)
 
 3. Go to this repository Vagrant folder and type below command
 ```shell=
 vagrant up
 ```
-P.S. Mention all application you execute in Windows10, you should open **run as administrator** to avoid some unexpecting error occurs
+P.S. Mention all application you execute in Windows10, you should open by **"run as administrator"** item to avoid some unexpect error occurs.
 
 ### B. GCP VM
 By the way, you also can use google cloud platform to build up your virtural machine, in practice, I choose 16 vCPU and 104 GB memory size to be my VM. And next you need to install gui tools and connection by VNC Viewer.
+
 ![](https://github.com/Anch9999/AiToDinoRun/blob/master/model/image_data/gcp.PNG)
 
 ```shell=
 0. create new firewall rule in GCP
+
 ![](https://github.com/Anch9999/AiToDinoRun/blob/master/model/image_data/firewall.PNG)
+
 1. sudo apt-get update
 2. sudo apt-get upgrade
 3. sudo apt-get install -y ubuntu-desktop gnome-panel gnome-core gnome-settings-daemon metacity nautilus gnome-terminal vnc4server
