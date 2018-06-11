@@ -9,7 +9,7 @@ Here my aim is practice build up my virtual system environment by myself, and tr
 
 # Installation
 
-First you need clone this repository and you can build up by A+B+C, A+C, B+C or C combination.
+First you need clone this repository and you can build up by A+B+C, A+C, B+C or C combination and download [chromedriver](http://chromedriver.chromium.org/downloads) unzip and copy into model folder
 
 ```shell=
 git clone https://github.com/Anch9999/AiToDinoRun.git
