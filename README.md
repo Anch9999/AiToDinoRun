@@ -21,13 +21,13 @@ your machine. It's very easy to let you adjustment. Also, you can change your CP
 P.S. password : vagrant
 
 **(For Linux)**
-If you do not use VirtualBox and Vagrant before, please copy below command to install.
+If you did not use VirtualBox and Vagrant before, please copy below command to install.
 
 ```shell=
 sudo apt-get install -y virtualbox vagrant
 ```
 
-If you ready and you just need to go into Vagrant folder and type below command and it is starting to auto-build your virtual machine
+If you ready and you just need to go into Vagrant folder and type below command, and then it is starting to auto-build your virtual machine.
 ```shell=
 vagrant up
 ```
@@ -45,7 +45,7 @@ path -> File -> Preferences
 ```shell=
 vagrant up
 ```
-P.S. Mention all application you execute in Windows10, you should open by **"run as administrator"** item to avoid some unexpect error occurs.
+P.S. Mention all application you execute in Windows10, you should open by **"run as administrator"** item to avoid some unexpected  error occurs.
 
 ### B. GCP VM
 By the way, you also can use google cloud platform to build up your virtural machine, in practice, I choose 16 vCPU and 104 GB memory size to be my VM. And next you need to install gui tools and connection by VNC Viewer.
@@ -53,7 +53,7 @@ By the way, you also can use google cloud platform to build up your virtural mac
 ![](https://github.com/Anch9999/AiToDinoRun/blob/master/model/image_data/gcp.PNG)
 
 ```shell=
-0. create new firewall rule in GCP
+0. create new firewall rule in GCP and use ssh connection
 
 ![](https://github.com/Anch9999/AiToDinoRun/blob/master/model/image_data/firewall.PNG)
 
@@ -74,21 +74,22 @@ nautilus &
 ```
 
 ### C. Use pipenv to crate your virtual environment
-Now I use pipenv to setup my virtual environment, if you don't use pipenv before please run below command
+Now use pipenv to setup my virtual environment, if you did not use pipenv before please run below command
 ```shell=
 sudo pip install pipenv
 ```
-P.S. If you use my Vagrantfile script and vagrant up, pip should be installed already, otherwise, you should install pip first.
+P.S. If you use my Vagrantfile script and vagrant up, pip should be installed already, otherwise you should install pip first.
 
 And next is start setup
 ```shell=
 pipenv --python 3.6
 pipenv shell
 cd your_local_AiToDinoRun_path/model
-pip install -r requirements.txt (or you can use **pipenv install**, but it feel slower than use pip)
+pip install -r requirements.txt (or you can use **pipenv install**, but it feels slower than use pip)
 jupyer notebook
 ```
 
 Finally, you can open Reinforcement Learning Dino Run.ipynb to start run your DRP dino game.
-P.S. Only invoke init_cache() for the first time to do this.
+Hope you enjoy it :_)
+P.S. Invoke init_cache() for the first time.
 
