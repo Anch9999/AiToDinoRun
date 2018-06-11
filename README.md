@@ -5,11 +5,11 @@ and use https://github.com/Paperspace/DinoRunTutorial code to play Google Chrome
 
 ![](https://github.com/Anch9999/AiToDinoRun/blob/master/model/image_data/training_dinorun.gif)
 
-My aim here is to practice build up my virtual system environment by myself, and try to understand how to use DRL(Deep Reinforcement Learning) let chrome dino game can start training to get a higher score than human play
+Here my aim is practice build up my virtual system environment by myself, and try to understand how to use DRL (Deep Reinforcement Learning) let chrome dino game can start training to get a higher score than human play.
 
 # Installation
 
-First you need clone this repository 
+First you need clone this repository and you can build up by A+B+C, A+C or B+C combination.
 
 ```shell=
 git clone https://github.com/Anch9999/AiToDinoRun.git
@@ -19,6 +19,7 @@ git clone https://github.com/Anch9999/AiToDinoRun.git
 If you don't want dino game training process to occupy all your system resource, I recommend you to use VirtualBox and Vagrant control
 your machine. It's very easy to let you adjustment. Also, you can change your CPU cores and memory size by Vagrantfile.
 P.S. password : vagrant
+
 **(For Linux)**
 If you do not use VirtualBox and Vagrant before, please copy below command to install.
 
