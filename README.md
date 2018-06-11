@@ -52,11 +52,10 @@ By the way, you also can use google cloud platform to build up your virtural mac
 
 ![](https://github.com/Anch9999/AiToDinoRun/blob/master/model/image_data/gcp.PNG)
 
-```shell=
 * create new firewall rule in GCP and use ssh connection
-
 ![](https://github.com/Anch9999/AiToDinoRun/blob/master/model/image_data/firewall.PNG)
 
+```shell=
 * sudo apt-get update
 * sudo apt-get upgrade
 * sudo apt-get install -y ubuntu-desktop gnome-panel gnome-core gnome-settings-daemon metacity nautilus gnome-terminal vnc4server
@@ -85,7 +84,7 @@ And next is start setup
 pipenv --python 3.6
 pipenv shell
 cd your_local_AiToDinoRun_path/model
-pip install -r requirements.txt (or you can use **pipenv install**, but it feels slower than use pip)
+pip install -r requirements.txt (or you can use "pipenv install", but it feels slower than use pip)
 jupyer notebook
 ```
 
