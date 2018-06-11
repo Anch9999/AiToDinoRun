@@ -9,7 +9,7 @@ Here my aim is practice build up my virtual system environment by myself, and tr
 
 # Installation
 
-First you need clone this repository and you can build up by A+B+C, A+C or B+C combination.
+First you need clone this repository and you can build up by A+B+C, A+C, B+C or C combination.
 
 ```shell=
 git clone https://github.com/Anch9999/AiToDinoRun.git
