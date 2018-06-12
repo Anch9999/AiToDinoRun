@@ -74,7 +74,7 @@ nautilus &
 ```
 
 ### C. Use pipenv to crate your virtual environment
-Now use pipenv to setup my virtual environment, if you did not use pipenv before please run below command
+Now use pipenv to setup virtual environment, if you did not use pipenv before please run below command
 ```shell=
 sudo pip install pipenv
 ```
