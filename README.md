@@ -81,6 +81,9 @@ sudo pip install pipenv
 P.S. If you use my Vagrantfile script and vagrant up, pip should be installed already, otherwise you should install pip first.
 
 And next is start setup
+
+Download [chromedriver](http://chromedriver.chromium.org/downloads), unzip and copy into model folder
+
 ```shell=
 pipenv --python 3.6
 pipenv shell
