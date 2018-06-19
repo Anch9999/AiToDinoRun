@@ -89,7 +89,7 @@ pipenv --python 3.6
 pipenv shell
 cd your_local_AiToDinoRun_path/model
 pip install -r requirements.txt (or you can use "pipenv install", but it feels slower than use pip)
-jupyer notebook
+jupyter notebook
 ```
 
 Finally, you can open Reinforcement Learning Dino Run.ipynb to start run your DRP dino game.
