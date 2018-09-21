@@ -1,5 +1,4 @@
 # AiToDinoRun
-Test
 
 This reference [playing atari with deep reinforcement learning](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf)
 and use https://blog.paperspace.com/dino-run/ code to play Google Chrome's offline Dino Run game.
